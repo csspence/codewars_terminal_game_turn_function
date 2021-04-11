@@ -11,6 +11,11 @@ You are using a library (Game.Logic in C#) that already has the functions below.
 - move
 */
 
-function doTurn () {
-  // Call functions here
+const doTurn = () => {
+  rollDice();
+  move();
+  combat();
+  getCoins();
+  buyHealth();
+  printStatus();
 }
